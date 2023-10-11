@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#display-container{
+    margin: 10px;
+    padding: 5px;
+    
+}
+#display-card{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-auto-rows: auto;
+grid-gap: 1rem;
+}
+#reviewing-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px;
+    width: 90vw
+}
+#selected-image{
+    display: flex;
+    align-content: end;
+    width: 20vw;
+    margin-left: 50%;
+}
+#selected-details {
+    margin-right: 80px;
+    margin-left: 20%;
+    width: 50vw;
+}
+#selected{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+#bands-images{
+    display:flex;
+
+}
+#misfits{
+    margin-top:80px ;
+}
+#slipknot{
+    margin-top :80px;
+    margin-left: 30px;
+}
+#About-us{
+    margin: 10px;
+    padding: 10px;
+}
+#icons{
+    display: flex;
+    justify-content: space-between;
+}

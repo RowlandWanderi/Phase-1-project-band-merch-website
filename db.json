@@ -1,0 +1,91 @@
+{
+    "Tshirts": [
+      {
+        "id": 1,
+        "name": "Motley Crue Classic Dr. Feelgood ",
+        "price": 1200,
+        "description": "Black Adult T-Shirt",
+        "image_url":  "https://cdn11.bigcommerce.com/s-m3qgt8nbul/images/stencil/160w/products/60699/69045/MCRU512__49826.1617904437.jpg?c=2",
+        "reviews": [
+          "It fits! Just the way I like it!!",
+          "This is my favorite band!"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Jimi Hendrix T-shirt",
+        "price": 1200,
+        "description": "Black Adult T-Shirt",
+        "image_url": "https://cdn11.bigcommerce.com/s-m3qgt8nbul/images/stencil/1920w/products/19522/23459/JHEN508__20775.1537993341.jpg?c=2",
+        "reviews": [
+          "I like the design!",
+          "Finally got my order. Thank you Bandwagon!"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "A Perfect Circle T-shirt",
+        "price":1300,
+        "description": "A Perfect Circle Unisex T-Shirt The Depths",
+        "image_url": "https://cdn11.bigcommerce.com/s-m3qgt8nbul/images/stencil/160w/products/138489/170046/APCTS04MB__24119.1679429973.jpg?c=2",
+        "reviews": [
+          "The graphics are sick on this one!"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Alice Cooper T-shirt",
+        "price": 1500,
+        "description": "Alice Cooper Face and Logo Black T-Shirt",
+        "image_url": "https://cdn11.bigcommerce.com/s-m3qgt8nbul/images/stencil/160w/products/129605/158486/ACOOP519__18225.1663701117.jpg?c=2",
+        "reviews": [
+          "I wish this came in white."
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Bob Marley Free Our Mind T-Shirt",
+        "price": 1200,
+        "description": "Bob Marley",
+        "image_url": "https://cdn11.bigcommerce.com/s-m3qgt8nbul/images/stencil/160w/products/116738/137330/Bob_Marley_Free_Our_Mind_T-Shirt__45494.1613676051.jpg?c=2",
+        "reviews": [
+          "Such a legend.",
+          "I've been looking for this. I love it!"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Death Row Records Flap Top Record Bag",
+        "price":1350,
+        "description": "Death Row Records",
+        "image_url": "https://cdn11.bigcommerce.com/s-m3qgt8nbul/images/stencil/160w/products/139668/172381/DeathRowRedRecordFlapTopMessenger_960x960__79518.1683055354.jpg?c=2",
+        "reviews": [
+          "I like the design. It matches with my kicks."
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Dirty Heads Hair Waves T-Shirt",
+        "price":2000,
+        "description": "The Dirty Heads",
+        "image_url": "https://cdn11.bigcommerce.com/s-m3qgt8nbul/images/stencil/160w/products/128440/156442/Dirty-Heads-Hair-Waves-T-Shirt-72dpi__05564.1658443966.jpg?c=2",
+        "reviews": [
+          "I like the logo.",
+          "I didn't get the size I wanted."
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Outkast Unisex T-Shirt Stankonia",
+        "price": 1800,
+        "description": "Outkast",
+        "image_url": "https://cdn11.bigcommerce.com/s-m3qgt8nbul/images/stencil/160w/products/132629/163017/OKTS03MB__21723.1673567607.jpg?c=2",
+        "reviews": [
+          "Just as described and came quick. Love my two shirts.",
+          "Nice soft-fits well",
+          "My husband found this website for me bc I love 80s hair bands and I absolutely love the tees from here! Ive purchased at least 15 already and plan on getting more! They are soft, comfortable and look awesome! Highly recommend."
+        ]
+      }
+     
+    ]
+  }

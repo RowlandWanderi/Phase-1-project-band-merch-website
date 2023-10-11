@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Band Wagon</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./bandwagonLogo-removebg-preview.png" alt ="Loading" width = 200>
+          </a>
+            <span class="navbar-text fs-3">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" href="#About-us">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" href="#contacts">Contacts</a>
+                  </li>
+                </ul>
+            </span>
+          </div>
+        </div>
+    </nav>
+    <div>
+        <h1 class="text-center">WELCOME TO BANDWAGON!</h1>
+        <h2 class="text-center">YOUR NUMBER ONE STORE FOR THE LATEST BAND TEES & MERCH</h2>
+    </div>
+    <div class="card text-bg-dark" >
+        <img src="https://cdn11.bigcommerce.com/s-m3qgt8nbul/images/stencil/original/image-manager/fall-band-t-shirts-4-.jpg?t=1695154386" class="card-img" alt="Loading Banner">
+    </div>
+    <div id="display-container">
+        <h3 class="text-center">Top Selling Products</h3>
+        <a href="#reviewing-container"></a>
+        <ul class="card" id="display-card">
+            <img id="displayed-product-image" src="" class="card-img-top" alt="loading">
+            <div class="card-body">
+              <h5 id ="displayed-product-title" class="card-title">title</h5>
+              <p id ="displayed-product-description"class="card-text">description</p>
+              <p id="displayed-product-price"class="card-text">price</p>
+              <ul id ="displayed-product-reviews">
+                <li>reviews</li>
+              </ul>
+            </div>
+          </ul>  
+    </div>
+    <div id="reviewing-container">
+        <div>
+            <img
+            id="selected-image"
+            src="https://cdn11.bigcommerce.com/s-m3qgt8nbul/images/stencil/1920w/products/19522/23459/JHEN508__20775.1537993341.jpg?c=2"
+            alt="loading image">
+        </div>
+        <div id="selected">
+            <div id="selected-details">
+                <h3 id="selected-image-title">Image Title</h3>
+                <p id ="selected-image-description">Description</p>
+                <p id ="selected-image-price">price</p>
+                <div>
+                    <h3>Product Reviews</h3>
+                    <ul id ="selected-image-reviews">
+                        <li>reviews</li>
+                    </ul>
+                </div>
+                <p>Call now to make your order!</p>
+            </div>
+            <div>
+                <h3>Review This Product</h3>
+                <form id="review-selected-form">
+                    <div class="mb-3">
+                        <label  class="form-label">Email address</label>
+                        <input type="email" placeholder="E.g johnsmith@rockon.com"class="form-control" id="client-Email" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Your review</label>
+                        <textarea class="form-control" placeholder="Enter your review" id="client-review" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+          </div>  
+    </div>
+    <div id="popular-bands-container" class="container-fluid">
+        <h3 class="text-center">POPULAR BANDS</h3>
+        <div id="bands-images">
+            <div>
+                <a href="https://www.thebeatles.com/">
+                    <img  width = 300px src="./t_the-beatles9241-removebg-preview.png" alt="loading image">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.metallica.com/">
+                    <img width = 300px  src="./Metallica-removebg-preview.png" alt="loading image">
+                </a>
+            </div>
+            <div id="misfits">
+                <a href="https://www.misfits.com/">
+                    <img  width = 300px src="./Misfits-logo-9BD1B66D82-seeklogo.com.png " alt="loading image">
+                </a>
+            </div>
+            <div id="slipknot">
+                <a href="https://slipknot1.com/">
+                    <img width = 300px  src="./Daco_1823518.png " alt="loading image" >
+                </a>
+            </div>
+          </div>
+    </div>
+    <div id="About-us">
+      <h3 Class="text-center">ABOUT US</h3>
+      <p class="text-center fs-5">
+        Bandwagon is the ultimate music t-shirt store for any rock, heavy metal or punk fan! With officially licensed merchandise from all of the popular bands you know and love, our store offers rock music fans a way to show their passion through vibrant and stylish t-shirts. Whether you're into rock, heavy metal, alternative or punk rock, our selection of rock t-shirts has something perfect for everyone. Our lines of band merch and concert t-shirts come directly from the iconic bands themselves, so you can rest assured that every piece of gear at Bandwagon is 100% authentic. Come find the perfect band t-shirts and merch today at Bandwagon!
+      </p>
+    </div>
+<div class="container my-5">
+  <footer class="text-white text-center text-lg-start bg-primary">
+  <div class="container p-4">
+    <div class="row mt-4">
+      <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Reach out</h5>
+        <p>
+         We'd be delighted to hear from you. You can find us below on all our social media platforms.
+        </p>
+        <div id="icons">
+          <a href="www.linkedin.com/in/rowland-mwangi-54ab901b3" target="_blank">
+            <i class="fa fa-linkedin text-light" aria-hidden="true"></i>
+          </a>
+          <a href=" https://www.instagram.com/rowland_wanderi/" target="blank">
+            <i class="fa fa-instagram text-light" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/RowlandWanderi" target="blank">
+            <i class="fa fa-github text-light" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div id = "contacts" class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4 pb-1">CONTACTS</h5>
+        <ul class="fa-ul" style="margin-left: 1.65em;">
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Nairobi street, Nairobi, Kenya</span>
+          </li>
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">rowlandswanderi@gmail.com</span>
+          </li>
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+254718074885</span>
+          </li>
+        </ul>
+      </div>
+
+
+
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+        <table class="table text-center text-white">
+          <tbody class="font-weight-normal">
+            <tr>
+              <td>Mon - Thu:</td>
+              <td>9am - 6pm</td>
+            </tr>
+            <tr>
+              <td>Fri - Sat:</td>
+              <td>9am - 5pm</td>
+            </tr>
+            <tr>
+              <td>Sunday:</td>
+              <td>10am - 4pm</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-white" href="./index.html">Bandwagon.com</a>
+  </div>
+</footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
