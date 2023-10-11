@@ -1,13 +1,27 @@
 # Phase-1-project-band-merch-website
-#### The app is a simple Blog project, 09/10/2023
+
+#### Created on 09/10/2023
+
 #### **By Rowland Wanderi**
+
 ## Project Description
-    Its a simple blog app
+
+    This is an app I made that allows you to review and buy an item of your choice from the Bandwagon store through the webpage using a locally made json server.
+
 ## Setup/Installation Requirements
     - Download zip in the code section of github to your desired folder
     - Extract the files
     - Open the folder with vs code.
-    - Then run "json-server --watch db.json" to run our server.
+      A json server is required for this project so we need to install it and run this command to get the backend started:
+
+        ```sh
+        json-server --watch db.json
+        ```
+
+        Test your server by visiting this route in the browser:
+
+        [http://localhost:3000/Tshirts](http://localhost:3000/Tshirts)
+
     - Then run your index.html by either using the "GO LIVE" extension or by double clicking of the index.html
     - And your application is running.
        
