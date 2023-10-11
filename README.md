@@ -12,12 +12,12 @@
     - And your application is running.
        
 ## Live link
-Deployed Frontend can be accessed here [Blog]()   
+Deployed Frontend can be accessed here [Blog](https://rowlandwanderi.github.io/Phase-1-project-band-merch-website/)   
 
 
 ## Known Bugs
     The PATCH method is not working but aside from that the app works just fine.
-    
+
 ## Technologies used
     - JS
     - HTML and CSS
