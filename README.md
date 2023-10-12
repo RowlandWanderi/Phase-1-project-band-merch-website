@@ -28,9 +28,10 @@
 Deployed Frontend can be accessed here [Blog](https://rowlandwanderi.github.io/Phase-1-project-band-merch-website/)   
 
 ## Features
-    - The user can click on an image of a product listed and see its details
-    - The user can review the products listed on the page after clicking its image
-    - The user can upload a new product to the website
+    - The user can click on an image of a product listed and see its details.git
+    - The user can review the products listed on the page after clicking its image.
+    - The user can upload a new product to the website.
+    - The user can delete a product from the website after clicking the delete button.
 
 
 ## Known Bugs
