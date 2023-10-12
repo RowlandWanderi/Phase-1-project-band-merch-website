@@ -130,6 +130,10 @@ submitForm.addEventListener("submit",(e) =>{
       postRequest();
       submitForm.reset()
   })
+  //create a function that deletes a single product
+  function deleteProduct(){
+    
+  }
 
 
 
