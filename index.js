@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <ul id ="displayed-product-reviews">
               ${Tshirt.reviews.map(review => `<li>${review}</li>`).join('')};
               </ul>
-              
+              <button onClick="deleteProduct(${Tshirt.id})">Delete</button>
             </div>
             </li>`).join('')  
     })
