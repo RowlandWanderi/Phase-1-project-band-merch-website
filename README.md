@@ -29,7 +29,7 @@ Deployed Frontend can be accessed here [Blog](https://rowlandwanderi.github.io/P
 
 ## Features
     - The user can click on an image of a product listed and see its details
-    - The user can review the products listed on the page after clickin its image
+    - The user can review the products listed on the page after clicking its image
 
 
 ## Known Bugs
