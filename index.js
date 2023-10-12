@@ -93,10 +93,13 @@ function addingReview(TshirtId){
     PatchRequest();
       
 }
-//create a function that posts a new product to the server from the user input
-function submitProduct(){
-  
-}
+// add an event listener to the submit your product form that will post it to our webpage
+const submitForm = document.getElementById("submit-product-form")
+submitForm.addEventListener("submit",(e) =>{
+    e.preventDefault()
+    console.log(submitForm)
+
+  })
 
 
 
