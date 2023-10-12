@@ -71,7 +71,7 @@ function enterAllProductDetails(TshirtId){
 } 
 //create a function that adds a new review to the reviews
 function addingReview(TshirtId){
-  const clientReview = document.getElementById("client-review").value
+  const clientReview = document.getElementById("client-review").value;
   console.log(clientReview);
   let PatchRequest = () => {
     // sending PATCH request with fetch API in javascript
@@ -97,14 +97,14 @@ function addingReview(TshirtId){
 // add an event listener to the submit your product form that will post it to our webpage
 const submitForm = document.getElementById("submit-product-form")
 submitForm.addEventListener("submit",(e) =>{
-    e.preventDefault()
-    console.log(submitForm)
+    e.preventDefault();
+    console.log(submitForm);
 
-    const name = document.getElementById("submit-product-name").value
-    const price = document.getElementById("submit-product-price").value
-    const image = document.getElementById("submit-product-image").value
-    const description = document.getElementById("submit-product-description").value
-    const review = document.getElementById("submit-product-review").value
+    const name = document.getElementById("submit-product-name").value;
+    const price = document.getElementById("submit-product-price").value;
+    const image = document.getElementById("submit-product-image").value;
+    const description = document.getElementById("submit-product-description").value;
+    const review = document.getElementById("submit-product-review").value;
 // use fetch to update the values to the backend
     let postRequest = () => {
       // sending PATCH request with fetch API in javascript
@@ -124,12 +124,12 @@ submitForm.addEventListener("submit",(e) =>{
       })
           .then(resp => (resp.json()))
           .then(() =>{
-            alert("Your product has been submited")
+            alert("Your product has been submited");
           })
       };
       
       postRequest();
-      submitForm.reset()
+      submitForm.reset();
   })
   //create a function that deletes a single product
   function deleteProduct(TshirtId){
@@ -138,7 +138,7 @@ submitForm.addEventListener("submit",(e) =>{
     })
     .then(resp => (resp.json()))
     .then(() =>{
-      alert("Your product has been deleted successfully")
+      alert("Your product has been deleted successfully");
     })
   }
 
