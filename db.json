@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Motley Crue Classic Dr. Feelgood ",
-      "price": 1200,
+      "price": 1250,
       "description": "Black Adult T-Shirt",
       "image_url": "https://merchbar.imgix.net/product/105/6519/4053940011090/COkiFPGd65w_97a91484-1fbe-4825-a71f-a3b505ed7991.png?q=40&auto=compress,format&w=1400",
       "reviews": [
@@ -15,7 +15,7 @@
     {
       "id": 2,
       "name": "Jimi Hendrix T-shirt",
-      "price": 1200,
+      "price": 1500,
       "description": "Black Adult T-Shirt",
       "image_url": "https://cdn11.bigcommerce.com/s-m3qgt8nbul/images/stencil/1920w/products/19522/23459/JHEN508__20775.1537993341.jpg?c=2",
       "reviews": [
@@ -36,7 +36,7 @@
     {
       "id": 4,
       "name": "Alice Cooper T-shirt",
-      "price": 1500,
+      "price": 1800,
       "description": "Alice Cooper Face and Logo Black T-Shirt",
       "image_url": "https://i5.walmartimages.com/asr/542160eb-9bd7-4dc8-b8d0-19413c6cbbe6.005e794701f01171fda7c3e26efadd9a.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
       "reviews": [
@@ -47,7 +47,7 @@
     {
       "id": 5,
       "name": "Bob Marley Free Our Mind T-Shirt",
-      "price": 1200,
+      "price": 1400,
       "description": "Bob Marley",
       "image_url": "//cavo.ae/cdn/shop/products/887982019967-1_1024x1024.jpg?v=1612353758",
       "reviews": [
