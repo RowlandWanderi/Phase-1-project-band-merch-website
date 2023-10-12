@@ -1,5 +1,6 @@
 
 // Code here
+//add an event listener to the DOM that loads our products with their respective details
 document.addEventListener("DOMContentLoaded", () => {
     
 
@@ -94,7 +95,7 @@ function addingReview(TshirtId){
     PatchRequest();
       
 }
-// add an event listener to the submit your product form that will post it to our webpage
+// add an event listener to the submitting product form that will post it to our webpage
 const submitForm = document.getElementById("submit-product-form")
 submitForm.addEventListener("submit",(e) =>{
     e.preventDefault();
@@ -107,7 +108,7 @@ submitForm.addEventListener("submit",(e) =>{
     const review = document.getElementById("submit-product-review").value;
 // use fetch to update the values to the backend
     let postRequest = () => {
-      // sending PATCH request with fetch API in javascript
+      // sending POST request with fetch API in javascript
       fetch(`http://localhost:3000/Tshirts`, {
         method: "POST",	
           headers: {
@@ -129,6 +130,7 @@ submitForm.addEventListener("submit",(e) =>{
       };
       
       postRequest();
+//Reset the submitted form
       submitForm.reset();
   })
   //create a function that deletes a single product
@@ -141,10 +143,3 @@ submitForm.addEventListener("submit",(e) =>{
       alert("Your product has been deleted successfully");
     })
   }
-
-
-
-
-
-
-
