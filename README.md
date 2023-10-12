@@ -30,7 +30,7 @@ Deployed Frontend can be accessed here [Blog](https://rowlandwanderi.github.io/P
 
 
 ## Known Bugs
-    The PATCH method is not working but aside from that the app works just fine.
+    The app works just fine.
 
 ## Technologies used
     - JS
