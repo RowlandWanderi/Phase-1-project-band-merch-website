@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <ul id ="displayed-product-reviews">
               ${Tshirt.reviews.map(review => `<li>${review}</li>`).join('')};
               </ul>
+              
             </div>
             </li>`).join('')  
     })
@@ -131,8 +132,14 @@ submitForm.addEventListener("submit",(e) =>{
       submitForm.reset()
   })
   //create a function that deletes a single product
-  function deleteProduct(){
-    
+  function deleteProduct(TshirtId){
+    fetch(`http://localhost:3000/Tshirts/${TshirtId}`,{
+      method:"DELETE"
+    })
+    .then(resp => (resp.json()))
+    .then(() =>{
+      alert("Your product has been deleted successfully")
+    })
   }
 
 
