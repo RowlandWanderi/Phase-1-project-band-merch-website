@@ -93,7 +93,10 @@ function addingReview(TshirtId){
     PatchRequest();
       
 }
-
+//create a function that posts a new product to the server from the user input
+function submitProduct(){
+  
+}
 
 
 

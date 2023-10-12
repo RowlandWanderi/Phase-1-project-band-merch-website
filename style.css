@@ -37,6 +37,9 @@ grid-gap: 1rem;
     flex-direction: row; 
     justify-content: space-between;
 }
+#uploading_container{
+    margin: 20px;
+}
 #bands-images{
     display:flex;
 

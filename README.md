@@ -9,10 +9,9 @@
     This is an app I made that allows you to review and buy an item of your choice from the Bandwagon store through the webpage using a locally made json server.
 
 ## Setup/Installation Requirements
-    - Download zip in the code section of github to your desired folder
-    - Extract the files
+    - Clone this repository to your local machine.
     - Open the folder with vs code.
-      A json server is required for this project so we need to install it and run this command to get the backend started:
+    - A json server is required for this project so we need to install it and run this command to get the backend started:
 
         ```sh
         json-server --watch db.json
@@ -27,6 +26,10 @@
        
 ## Live link
 Deployed Frontend can be accessed here [Blog](https://rowlandwanderi.github.io/Phase-1-project-band-merch-website/)   
+
+## Features
+    - The user can click on an image of a product listed and see its details
+    - The user can review the products listed on the page after clickin its image
 
 
 ## Known Bugs
