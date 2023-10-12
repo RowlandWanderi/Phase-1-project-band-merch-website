@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
  function enterAllProducts() {
    
     
-     fetch(`http://localhost:3000/Tshirts`)
+     fetch(`https://bnadwagon.onrender.com/Tshirts`)
     .then(res => (res.json()))
     .then( ourTshirtArrayData => { 
         const card = document.getElementById('display-card');
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
 } 
 // create a function that returns the product details from our server after clicking the product image
 function enterAllProductDetails(TshirtId){
-  fetch(`http://localhost:3000/Tshirts/${TshirtId}`)
+  fetch(`https://bnadwagon.onrender.com/Tshirts/${TshirtId}`)
   .then(res => (res.json()))
   .then(Tshirt => {
       console.log(Tshirt);
@@ -76,7 +76,7 @@ function addingReview(TshirtId){
   console.log(clientReview);
   let PatchRequest = () => {
     // sending PATCH request with fetch API in javascript
-    fetch(`http://localhost:3000/Tshirts/${TshirtId}`, {
+    fetch(`https://bnadwagon.onrender.com/Tshirts/${TshirtId}`, {
       method: "PATCH",	
         headers: {
         "Content-Type": "application/json"
@@ -109,7 +109,7 @@ submitForm.addEventListener("submit",(e) =>{
 // use fetch to update the values to the backend
     let postRequest = () => {
       // sending POST request with fetch API in javascript
-      fetch(`http://localhost:3000/Tshirts`, {
+      fetch(`https://bnadwagon.onrender.com/Tshirts`, {
         method: "POST",	
           headers: {
           "Content-Type": "application/json"
@@ -135,7 +135,7 @@ submitForm.addEventListener("submit",(e) =>{
   })
   //create a function that deletes a single product
   function deleteProduct(TshirtId){
-    fetch(`http://localhost:3000/Tshirts/${TshirtId}`,{
+    fetch(`https://bnadwagon.onrender.com/Tshirts/${TshirtId}`,{
       method:"DELETE"
     })
     .then(resp => (resp.json()))
