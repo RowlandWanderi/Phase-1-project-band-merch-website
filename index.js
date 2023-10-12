@@ -3,8 +3,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     
 
-    enterAllProducts()
-    enterAllProductDetails(1)
+    enterAllProducts();
+    enterAllProductDetails(1);
 
 });
     
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
      fetch(`http://localhost:3000/Tshirts`)
     .then(res => (res.json()))
     .then( ourTshirtArrayData => { 
-        const card = document.getElementById('display-card')
+        const card = document.getElementById('display-card');
         card.innerHTML = ourTshirtArrayData.map(Tshirt => `<li>
         <a href="#reviewing-container">
         <img id="displayed-product-image" onClick="enterAllProductDetails(${Tshirt.id})" src=${Tshirt.image_url} class="card-img-top" alt="loading">
@@ -40,13 +40,13 @@ function enterAllProductDetails(TshirtId){
   fetch(`http://localhost:3000/Tshirts/${TshirtId}`)
   .then(res => (res.json()))
   .then(Tshirt => {
-      console.log(Tshirt)
-      const productName = document.getElementById('selected-image-title')
-      const productPrice = document.getElementById("selected-image-price")
-      const productDescription = document.getElementById("selected-image-description")
-      const productImage = document.getElementById("selected-image")
-      const productReviews = document.getElementById("selected-image-reviews")
-      const theReviewSection = document.getElementById("the-review-section")
+      console.log(Tshirt);
+      const productName = document.getElementById('selected-image-title');
+      const productPrice = document.getElementById("selected-image-price");
+      const productDescription = document.getElementById("selected-image-description");
+      const productImage = document.getElementById("selected-image");
+      const productReviews = document.getElementById("selected-image-reviews");
+      const theReviewSection = document.getElementById("the-review-section");
 
       productName.innerHTML = Tshirt.name
       productPrice.innerHTML = `Ksh ${Tshirt.price}`
