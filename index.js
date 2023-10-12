@@ -99,6 +99,36 @@ submitForm.addEventListener("submit",(e) =>{
     e.preventDefault()
     console.log(submitForm)
 
+    const name = document.getElementById("submit-product-name").value
+    const price = document.getElementById("submit-product-price").value
+    const image = document.getElementById("submit-product-image").value
+    const description = document.getElementById("submit-product-description").value
+    const review = document.getElementById("submit-product-review").value
+// use fetch to update the values to the backend
+    let postRequest = () => {
+      // sending PATCH request with fetch API in javascript
+      fetch(`http://localhost:3000/Tshirts`, {
+        method: "POST",	
+          headers: {
+          "Content-Type": "application/json"
+          },
+          // Fields that to be updated are passed
+          body: JSON.stringify({
+            name: name, 
+            price: price,
+            image_url: image,
+            description: description,
+            reviews:[review]
+          }),
+      })
+          .then(resp => (resp.json()))
+          .then(() =>{
+            alert("Your product has been submited")
+          })
+      };
+      
+      postRequest();
+      submitForm.reset()
   })
 
 
